@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="top-page">
+
+        <div class="titulo">
+            <h2>Conversor de moeda</h2>
+        </div>
+
+        <div class="input-field">
+            <input type="number" id="amount" placeholder="Valor" value="1">
+        </div>
+
+        <div class="selectors">
+            <select id="fromCurrency">
+                <option value="USD">Dólar(USD)</option>
+                <option value="EUR">Euro(EUR)</option>
+                <option value="BTC">Bitcoin(BTC)</option>
+            </select>
+
+            <span>para</span>
+
+            <select id="toCurrency">
+                <option value="BRL">Real(BRL)</option>
+            </select>
+        </div>
+
+        <button id="convertBtn">Converter</button>
+
+        <div id="result">
+            O resultado aparecerá aqui
+        </div>
+
+
+    </section>
+</body>
+</html>
