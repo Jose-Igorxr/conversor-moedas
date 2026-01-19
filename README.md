@@ -13,7 +13,7 @@ Feedback ao Usuário: Mensagens de status durante a busca de dados e formataçã
 
 Responsividade: Interface adaptável para diferentes tamanhos de tela.
 
-🛠️ Tecnologias Utilizadas;
+🛠️ Tecnologias Utilizadas:
 
 HTML5: Estruturação semântica do projeto.
 
